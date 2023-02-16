@@ -1,0 +1,13 @@
+{
+  "name": "abcdeblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/abcdeblock",
+    "ssh": "git@github.com:grgshiji/abcdeblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
